@@ -1,0 +1,147 @@
+body {
+    background-color: #cccccc;
+   }
+.sidebar {
+    padding: 0;
+    width: 150px;
+    background-color: #bc2626;
+    background-image: linear-gradient(#931313,rgb(30, 33, 32));
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    }
+    .sidebar a {
+    display: block;
+    color: white;
+    padding: 30px;
+    font-family: "Trebuchet MS";
+    text-decoration: underline rgb(255, 255, 255);
+    }
+    .sidebar a:hover {
+    background-color: #801010;
+    color: white;
+    }
+    .header {
+        margin-left: 160px;
+        margin-right: 10px;
+        padding: 10px;
+        text-align: center;
+        background: #931313;
+        background-image: linear-gradient(to right,#931313,rgb(30, 33, 32));
+        color: white;
+        font-size: 30px;
+        position: relative;
+        font-family: "Trebuchet MS";
+      }
+      img {
+        max-width: 50;
+        max-height: 100%;
+        height: auto;
+        width: auto/9; /* ie8 */
+    }
+    div.content {
+    margin-top: 10px;
+    margin-left: 160px;
+    margin-right: 10px;
+    padding: 20px 20px;
+    height: auto;
+    background-color: rgb(30, 33, 32);
+    color: rgba(245, 245, 245, 0.744);
+    background-image: linear-gradient(to right,rgb(30, 33, 32),rgb(55, 56, 55));
+    font-family: "Trebuchet MS";
+    }
+    
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
+      }
+      .right {
+        display: block;
+        width: 40%;
+        height: auto;
+        float: right;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+      }
+      .rightcat {
+        display: block;
+        width: 30%;
+        height: auto;
+        float: right;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+      }
+    div.research {
+        margin-top: 10px;
+        margin-left: 160px;
+        margin-right: 10px;
+        float:left;
+        width:auto;
+        padding: 20px 20px;
+        height: auto;
+        background-color: rgb(30, 33, 32);
+        color: rgba(245, 245, 245, 0.744);
+        background-image: linear-gradient(to right,rgb(30, 33, 32),rgb(55, 56, 55));
+        }
+        
+    div.imagespace {
+        margin-top: 10px;
+        margin-left: 160px;
+        margin-right: 10px;
+        padding: 1px 16px;
+        height: auto;
+        background-color: white;
+        background-image: linear-gradient(to right,rgb(30, 33, 32),rgb(55, 56, 55),rgb(30, 33, 32));
+        }
+        .footer {
+            margin-left: 160px;
+            margin-right: 10px;
+            margin-top:10px;
+            padding: 10px;
+            background: #931313;
+            background-image: url("Images/Background.jpeg");
+            font-size: 20px;
+            position: relative;
+            height:100px;
+            color: rgba(245, 245, 245, 0.744);
+            font-family: "Trebuchet MS";
+          }
+          div.gallery {
+            border: 1px solid #ccc;
+            float: left;
+            width: 20%;
+          }
+          
+          div.gallery img {
+            width: 20%;
+            height: auto;
+          }
+          
+          div.desc {
+            padding: 15px;
+            text-align: center;
+          }
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+    html, body {
+        margin-right: 7%;
+        margin-left: 7%;
+        margin-top:0;
+        margin-bottom:0;
+        padding: 0px;
+        background-color:rgba(175, 175, 175, 0.94)
+    } 
+    @media only screen and (max-width: 1000px) {
+        html,body {
+          margin-right: 0%;
+          margin-left: 0%;
+        }
+      }
